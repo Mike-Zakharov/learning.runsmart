@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/font.css">
-    <link rel="stylesheet"  href="css/slick.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="css/style.min.css">
     <title>RunSmart_v_2.0</title>
 </head>
@@ -72,7 +73,7 @@
                     </div>
                 </div>
                 <div class="advantages__item">
-                    <img src="icons/heart.png" alt="heart">
+                    <img src="icons/heart.png" alt="heart" class="advantages__icon_animated">
                     <h6 class="advantages__descr-title">Заботимся о здоровье</h6>
                     <div class="advantages__descr">
                         Мы работаем для того, 
@@ -479,7 +480,7 @@
             <h2 class="title">отзывы клиентов</h2>
 
             <div class="reviews__wrapper">
-                <div class="reviews__item">
+                <div class="reviews__item fadeInUp wow" data-wow-duration='2s' data-wow-delay='1s'>
                     <img src="img/reviews_woman.png" alt="foto" class="reviews__img">
                     <div class="reviews__text">
                         <div class="reviews__name">Ирина Иванченко</div>
@@ -493,7 +494,7 @@
                     </div>
                 </div>
                 <hr>
-                <div class="reviews__item">
+                <div class="reviews__item fadeInUp wow" data-wow-duration='2s' data-wow-delay='1s'>
                     <img src="img/reviews_ivan.png" alt="foto" class="reviews__img">
                     <div class="reviews__text">
                         <div class="reviews__name">Иван Сёмочкин</div>
@@ -505,7 +506,7 @@
                     </div>
                 </div>
                 <hr>
-                <div class="reviews__item">
+                <div class="reviews__item fadeInUp wow" data-wow-duration='2s' data-wow-delay='1s'>
                     <img src="img/reviews_julia.png" alt="foto" class="reviews__img">
                     <div class="reviews__text">
                         <div class="reviews__name">Юлия Дашкина</div>
@@ -580,6 +581,7 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
